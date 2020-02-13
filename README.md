@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 commands to run the react-docker 
 
-initially build the image so go inside the directory and type the below command.
+initially to build image go inside the directory and type the below command.
 
 ### `docker build -t react-docker .`
 
