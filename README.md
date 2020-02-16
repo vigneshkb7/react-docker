@@ -19,7 +19,7 @@ Production
 
 building the prod image 
 
-### `docker build -f Dockerfile-prod -t react:prod`
+### `docker build -f Dockerfile-prod -t react:prod .`
 
 spin up the prod container
 
