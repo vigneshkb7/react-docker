@@ -3,6 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 commands to run the react-docker 
 
+Development 
+---------------------
+
 initially to build image go inside the directory and type the below command.
 
 ### `docker build -t react-docker .`
@@ -10,6 +13,17 @@ initially to build image go inside the directory and type the below command.
 once the image build is done type the below command to see the app running inside container.
 
 ### `docker run -p 3000:3000 react-docker`
+
+Production
+---------------------
+
+building the prod image 
+
+### `docker build -f Dockerfile-prod -t react:prod`
+
+spin up the prod container
+
+### `docker run -it -p 80:80 --rm react:prod`
 
 
 ## Available Scripts
